@@ -1,7 +1,7 @@
 
 import './App.css'
-import Slider from './Components/Slider'
-// import Cardslider from './Components/Cardslider'
+// import Slider from './Components/Slider'
+import Cardslider from './Components/Cardslider'
 
 function App() {
  
@@ -10,8 +10,8 @@ function App() {
     <>
       
       <div className='bg-cyan-400 container-fluid  w-100'>
-        <Slider/>
-        {/* <Cardslider/> */}
+        {/* <Slider/> */}
+        <Cardslider/>
       </div>
     </>
   )
